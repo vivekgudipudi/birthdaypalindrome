@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.h2{
+    padding: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  input,label{
+    display: block;
+}
+
+  input,#output{
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+    text-align: center;
+    min-height: 2rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+ #btn-show{
+    display: block;
+    margin: auto;
+    background: transparent;
+    border-radius: 0.3rem;
+    padding: 5px;
+    cursor: pointer;
+    background-color:#E5E7EB ;
+    font-weight:550;
+    
+ }
+
+ .outputdiv{
+     padding: 1rem 0rem;
+ }
+
+ label{
+     padding: 1rem;
+     
+ }
